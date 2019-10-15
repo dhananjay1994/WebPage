@@ -1,0 +1,75 @@
+body{
+    background-color: aliceblue;
+    width: 1300px;
+    height: 100%;
+}
+
+.video{
+    font-size: 25px;
+    text-align: left    ;
+    width:100%;
+}
+table{
+  margin-right: 4%;
+  
+  margin-left: 0.5%;
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+
+  table-layout: fixed;
+  width: 100%;
+  padding: 10%;
+}
+
+#customers td ,th  {
+  border: 1px solid;
+  padding: 8px;
+  width: 100px;
+  
+}
+ #customers th {
+    padding: 8px;
+    
+  }
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+  
+}
+
+.link {
+    float: left;
+    width: 33.33%;
+    padding-top: 7%;
+    padding-left:10%;
+  }
+  
+  .frame::after {
+    content: "";
+    float: right;
+    clear: both;
+    width:50%;
+    display: table;
+    border-color: #4CAF50
+   
+  }
+ 
+
+
